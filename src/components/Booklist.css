@@ -6,23 +6,23 @@
 }
 .cardbox{
     width:300px;
-    height: 590px;
-    background-color: aliceblue;
+    height: 450px;
     justify-content: center;
-    margin: 30px;
-    border-radius: 20px;
-    /* box-shadow: 5px 5px rgb(188, 254, 254); */
+    border: solid;
+    margin: 15px;
     transition: box-shadow .34s;
 }
 .cardbox2{
+    height: 185px;
     text-align: center;
+    font-size: 15px;
 
 }
 .cardbox:hover{
-    background-color: rgb(17, 16, 16);
+    /* background-color: rgb(234, 229, 229); */
+    border: solid red;
     cursor: pointer;
-    color: azure;
-    box-shadow: 5px 5px rgb(66, 242, 242);
+    /* color: azure; */
 }
 .headingg{
     text-align: center;
@@ -30,9 +30,26 @@
     font-weight: 400;
     color: brown;
 }
+
 .cardbox3{
-    color: red;
+    display: flex;
+    justify-content: center;
 }
-.Adding{
-    width: 80px;
+.Adding:hover{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: end; */
+    /* width: 80px; */
+    background-color: black;
+    color: whitesmoke;
+}
+.searchbox{
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+}
+.bookimage{
+    height: 220px;
+    display: flex;
+    
 }

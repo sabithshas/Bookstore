@@ -17,25 +17,26 @@
 .box2{
     text-align: center;
 }
-.searchbox{
+/* .searchbox{
     display: flex;
     justify-content: center;
-}
+} */
 .inputsearch{
     width: 300px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: rgb(231, 244, 255);
+    height: 35px;
+    /* border-radius: 10px; */
+    /* background-color: rgb(231, 244, 255); */
     color: #000;
     font-size: 20px;
 }
 .inputbutton{
-    width: 160px;
+    width: 150px;
     height: 35px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-left: 10px;
-    margin-top: 20px;
-    color: red;
+    /* margin-top: 10px; */
+    padding-top: 5px;
+    /* color: red; */
     background-color: #00000075;
 }
 .searchheading{

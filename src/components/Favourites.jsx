@@ -22,7 +22,7 @@ function Favourites() {
       <div className='container'>
         {favr && favr.map((books) => {
           return <div className='cardbox 'key={books.isbn13}>
-            <img src={books.image}></img>
+            <img src={books.image}  className='bookimage'></img>
             <div className='cardbox2'>
             <h5>{books.title}</h5>
                <p>{books.subtitle}</p>

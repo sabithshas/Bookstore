@@ -16,11 +16,11 @@ function BookListsearch() {
     }
   return (
     <>
-    <h1 className='searchheading'>Search Your Books Here</h1>
+    {/* <h1 className='searchheading'>Search Your Books Here</h1>
     <div className='searchbox'>    
     <form onSubmit={handlesubmit}>
         <input type='text' onChange={handlechange} className='inputsearch'></input>
-        <button type='submit' className='inputbutton'>Search</button>
+        <button type='submit' className='inputbutton' >Search</button>
     </form>
     </div>
     <div className='containerr'>
@@ -40,7 +40,7 @@ function BookListsearch() {
         })}
     
 
-    </div>
+    </div> */}
     </>
   )
 }
